@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 02</title>
+</head>
+<body>
+    <!--IMG -->
+    <img src="img/car-1.jpg" alt="Araba fotografi">
+     <!-- img lar inlin elemanlardir kapladigi yer kadar -->
+
+    <hr>
+    <!--FORM BASIT -->
+    <h2> My Form App - 1 </h2>
+    <form action="/action.php"> <!-- action kullaici bilgileri girip kaydettikten sonra dosya oraya gidiyor-->
+        <label for="fname">Isim : </label><br>
+        <input 
+        type="text" 
+        name="fname" 
+        id="fname" 
+        placeholder="isminizi giriniz"/> <br>
+
+        <label for="lname">Soyisim : </label> <br>
+        <input type="text" name="lname" id="lname" placeholder="soyisminizi giriniz"> <br>
+        <input type="submit" value="Kaydet">
+
+    </form>
+    <hr> <br>
+     <!-- FORM GELISMIS-->
+     <h2>My Form App - 2 </h2>
+     <form action="">
+        isim: <br>
+        <input type="text" name="name" id="isminizi giriniz"> <br>
+        Email : <br>
+        <input type="email" name="email" id="Emailinizi giriniz"> <br>
+        Hakkimda : <br>
+        <textarea cols="30" rows="10"></textarea> <!-- colns stun  rows satir--> <br>
+        Cinsiyet : 
+        <input type="radio" name="gender" id="" value="felmale">Bayan
+        <input type="radio" name="gender" id="" value="felmale">Bay
+        <br>
+        Sehir : <select name="" id="">
+            <option value="01">Adana</option>
+            <option value="02">adiyaman</option>
+            <option value="34">Istanbul</option>
+            <option value="47">Mardin</option>
+            <option value="06">Ankara</option>
+        </select> <br>
+        <input type="submit" value="Kaydet">
+
+     </form>
+
+</body>
+</html>
