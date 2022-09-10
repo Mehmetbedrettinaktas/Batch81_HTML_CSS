@@ -1,0 +1,37 @@
+*{
+ text-align: center; /* Butun metinleri sayfanin tam ortasinda hizalar*/
+}
+/*   *{} ile Html doyasindaki butun sayfaya etki ediyoruz */
+h2{
+    color: brown;
+}
+.ilk{  /* eger bir class secmek istiyorsak  .class ismi{} seklinde yaziyoruz */
+    color: aqua;
+}
+.red{
+    color: red;
+}
+a{
+    text-decoration: none ;
+}
+span{
+    color: red;
+}
+.ana{
+ border: 2px solid blueviolet;
+}
+.kutu{
+    background-color: darkred;
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 20px 5px black;
+}
+.kutu2{
+    background-color:aqua;
+    width: 144px;
+    height: 144px;
+    border:3px solid blue ;
+    border-radius: 150px;
+
+}
+
